@@ -41,10 +41,10 @@ export const awrapper = [
     title: "COURSES",
   },
 ]
-export const coursesCard = [
+export const resourcesCard = [
   {
     id: 1,
-    cover: "../images/courses/c1.png",
+    cover: "../images/courses/programming.png",
     coursesName: "Introducing to Software Engineering",
     courTeacher: [
       {
@@ -53,12 +53,12 @@ export const coursesCard = [
         totalTime: "50 lectures (190 hrs)",
       },
     ],
-    priceAll: "$100 All Course",
+    courseTitle: "Programming",
     pricePer: "$15 per month",
   },
   {
     id: 2,
-    cover: "../images/courses/c2.png",
+    cover: "../images/courses/ds.png",
     coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
     courTeacher: [
       {
@@ -67,12 +67,12 @@ export const coursesCard = [
         totalTime: "30 lectures (125 hrs)",
       },
     ],
-    priceAll: "$200 All Course",
+    courseTitle: "DSA",
     pricePer: "$25 per month",
   },
   {
     id: 3,
-    cover: "../images/courses/c3.png",
+    cover: "../images/courses/webdev.jpg",
     coursesName: "HTML, CSS, and Javascript for Web Developers",
     courTeacher: [
       {
@@ -81,12 +81,12 @@ export const coursesCard = [
         totalTime: "50 lectures (50 hrs)",
       },
     ],
-    priceAll: "$50 All Course",
+    courseTitle: "Web Development",
     pricePer: "$5 per month",
   },
   {
     id: 4,
-    cover: "../images/courses/c4.png",
+    cover: "../images/courses/android.jpg",
     coursesName: "Introducing to Programming with WordPress",
     courTeacher: [
       {
@@ -95,12 +95,12 @@ export const coursesCard = [
         totalTime: "20 lectures (20 hrs)",
       },
     ],
-    priceAll: "$30 All Course",
+    courseTitle: "Android Development",
     pricePer: "$3 per month",
   },
   {
     id: 5,
-    cover: "../images/courses/c5.png",
+    cover: "../images/courses/Artificial-Intelligence.jpg",
     coursesName: "Introducing to Programming with ReactJS",
     courTeacher: [
       {
@@ -109,12 +109,12 @@ export const coursesCard = [
         totalTime: "100 lectures (150 hrs)",
       },
     ],
-    priceAll: "$300 All Course",
+    courseTitle: "AI & ML",
     pricePer: "$30 per month",
   },
   {
     id: 6,
-    cover: "../images/courses/c6.png",
+    cover: "../images/courses/cybersec.jpg",
     coursesName: "Learn Frontend Programming Language",
     courTeacher: [
       {
@@ -123,50 +123,8 @@ export const coursesCard = [
         totalTime: "200 lectures (300 hrs)",
       },
     ],
-    priceAll: "$500 All Course",
+    courseTitle: "Cyber Security",
     pricePer: "$80 per month",
-  },
-  {
-    id: 7,
-    cover: "../images/courses/c7.png",
-    coursesName: "Introducing to with HTML / CSS",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Price",
-        totalTime: "20 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$20 All Course",
-    pricePer: "$2 per month",
-  },
-  {
-    id: 8,
-    cover: "../images/courses/c8.png",
-    coursesName: "Introducing to with JAVA",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "80 lectures (200 hrs)",
-      },
-    ],
-    priceAll: "$200 All Course",
-    pricePer: "$40 per month",
-  },
-  {
-    id: 9,
-    cover: "../images/courses/c9.png",
-    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "50 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$20 All Course",
-    pricePer: "$3 per month",
   },
 ]
 export const online = [

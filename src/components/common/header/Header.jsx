@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
-import Head from "./Head"
 import "./header.css"
 
 const Header = () => {
@@ -8,15 +7,20 @@ const Header = () => {
 
   return (
     <>
-      <Head />
       <header>
         <nav className='flexSB'>
+          <a href='/'>
+            <div className='start'>
+              <img className="logoImg" src="../images/logo (1).png" />
+              <div className='button'>LernTek</div>
+            </div>
+          </a>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
             <li>
               <Link to='/'>Home</Link>
             </li>
             <li>
-              <Link to='/courses'>All Courses</Link>
+              <Link to='/resources'>Resoucses</Link>
             </li>
             <li>
               <Link to='/about'>About</Link>
@@ -24,19 +28,17 @@ const Header = () => {
             <li>
               <Link to='/team'>Team</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to='/pricing'>Pricing</Link>
-            </li>
+            </li> */}
             <li>
-              <Link to='/journal'>Journal</Link>
+              <Link to='/blog'>Blogs</Link>
             </li>
             <li>
               <Link to='/contact'>Contact</Link>
             </li>
           </ul>
-          <div className='start'>
-            <div className='button'>GET CERTIFICATE</div>
-          </div>
+
           <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
           </button>

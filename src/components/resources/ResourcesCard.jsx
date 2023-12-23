@@ -1,21 +1,23 @@
 import React from "react"
 import "./courses.css"
-import { coursesCard } from "../../dummydata"
+import { resourcesCard } from "../../dummydata"
 
-const CoursesCard = () => {
+const ResourcesCard = () => {
   return (
     <>
       <section className='coursesCard'>
         <div className='container grid2'>
-          {coursesCard.map((val) => (
+          {resourcesCard.map((val) => (
             <div className='items'>
+
               <div className='content flex'>
-                <div className='left'>
+                {/* <div className='left'>
                   <div className='img'>
                     <img src={val.cover} alt='' />
                   </div>
-                </div>
-                <div className='text'>
+                </div> */}
+                <img src={val.cover} alt='' />
+                {/* <div className='text'>
                   <h1>{val.coursesName}</h1>
                   <div className='rate'>
                     <i className='fa fa-star'></i>
@@ -40,14 +42,14 @@ const CoursesCard = () => {
                       </>
                     ))}
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className='price'>
-                <h3>
-                  {val.priceAll} / {val.pricePer}
-                </h3>
+                <h2>
+                  {val.courseTitle}
+                </h2>
               </div>
-              <button className='outline-btn'>ENROLL NOW !</button>
+              <button className='outline-btn' >Get Started</button>
             </div>
           ))}
         </div>
@@ -56,4 +58,4 @@ const CoursesCard = () => {
   )
 }
 
-export default CoursesCard
+export default ResourcesCard
