@@ -1,5 +1,5 @@
 import React from "react"
-import "./courses.css"
+import "./resources.css"
 import { resourcesCard } from "../../dummydata"
 
 const ResourcesCard = () => {
