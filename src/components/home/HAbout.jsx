@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 // import OnlineCourses from "../resources/OnlineCourses"
 import Heading from "../common/heading/Heading"
 import "../resources/resources.css"
@@ -52,7 +53,7 @@ const HAbout = () => {
                   {val.courseTitle}
                 </h2>
               </div>
-              <button className='outline-btn'>GET STARTED</button>
+              <Link to={val.resourceRoute}><button className='outline-btn'>Get Started</button></Link>
             </div>
           ))}
         </div>

@@ -1,5 +1,6 @@
 import React from "react"
 import "./resources.css"
+import { Link } from "react-router-dom"
 import { resourcesCard } from "../../dummydata"
 
 const ResourcesCard = () => {
@@ -49,7 +50,7 @@ const ResourcesCard = () => {
                   {val.courseTitle}
                 </h2>
               </div>
-              <button className='outline-btn' >Get Started</button>
+              <Link to={val.resourceRoute}><button className='outline-btn'>Get Started</button></Link>
             </div>
           ))}
         </div>
