@@ -6,6 +6,7 @@
 
 .contacts .right {
   padding: 50px;
+  width: 100%;
 }
 
 .contacts h1 {
@@ -19,6 +20,12 @@
 
 .contacts .items {
   margin: 30px 0;
+}
+
+.contacts .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .contacts .box p {
