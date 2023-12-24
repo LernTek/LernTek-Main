@@ -55,6 +55,7 @@ export const resourcesCard = [
     ],
     courseTitle: "Programming",
     pricePer: "$15 per month",
+    resourceRoute: "resources/programming",
   },
   {
     id: 2,
@@ -69,6 +70,7 @@ export const resourcesCard = [
     ],
     courseTitle: "DSA",
     pricePer: "$25 per month",
+    resourceRoute: "resources/dsa",
   },
   {
     id: 3,
@@ -83,6 +85,7 @@ export const resourcesCard = [
     ],
     courseTitle: "Web Development",
     pricePer: "$5 per month",
+    resourceRoute: "resources/web-dev",
   },
   {
     id: 4,
@@ -97,6 +100,7 @@ export const resourcesCard = [
     ],
     courseTitle: "Android Development",
     pricePer: "$3 per month",
+    resourceRoute: "resources/android-dev",
   },
   {
     id: 5,
@@ -111,6 +115,7 @@ export const resourcesCard = [
     ],
     courseTitle: "AI & ML",
     pricePer: "$30 per month",
+    resourceRoute: "resources/ai-ml",
   },
   {
     id: 6,
@@ -125,6 +130,7 @@ export const resourcesCard = [
     ],
     courseTitle: "Cyber Security",
     pricePer: "$80 per month",
+    resourceRoute: "resources/cybersecurity",
   },
 ]
 export const online = [
