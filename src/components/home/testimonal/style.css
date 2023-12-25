@@ -1,57 +1,68 @@
+.testimonal {
+	display: flex;
+	justify-content: center;
+}
+.mycontainer {
+	margin: 0 3rem;
+	padding: 0 35px;
+	width: 100%;
+	max-width: 95rem;
+}
+
 .testimonal .items {
-  padding: 30px;
-  transition: 0.5s;
+	padding: 30px;
+	transition: 0.5s;
 }
 
 .testimonal .img {
-  position: relative;
+	position: relative;
 }
 
 .testimonal img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
 }
 
 .testimonal i {
-  position: absolute;
-  bottom: 0;
-  left: 60px;
-  background-color: #6c63ff;
-  color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 60px;
+	background-color: #6c63ff;
+	color: #fff;
 }
 
 .testimonal .name {
-  margin: 25px;
+	margin: 25px;
 }
 
 .testimonal .name h2 {
-  font-size: 20px;
-  margin-bottom: 5px;
+	font-size: 20px;
+	margin-bottom: 5px;
 }
 
 .testimonal .name span {
-  color: #6c63ff;
+	color: #6c63ff;
 }
 
 .testimonal p {
-  margin-top: 20px;
-  color: grey;
-  transition: 0.5s;
+	margin-top: 20px;
+	color: grey;
+	transition: 0.5s;
 }
 
 .testimonal .items:hover {
-  background-color: #6c63ff;
-  color: #fff;
-  cursor: pointer;
+	background-color: #6c63ff;
+	color: #fff;
+	cursor: pointer;
 }
 
 .testimonal .items:hover span,
 .testimonal .items:hover p {
-  color: #fff;
+	color: #fff;
 }
 
 .testimonal .items:hover i {
-  background-color: #fff;
-  color: #6c63ff;
+	background-color: #fff;
+	color: #6c63ff;
 }
