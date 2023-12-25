@@ -1,7 +1,7 @@
 export const programming = [
     {
         id: 1,
-        resourceLink: "https://www.youtube.com/embed/KttLrVypUSA?si=BbD485A-otVhmhFn",
+        resourceLink: "https://www.youtube.com/embed/videoseries?si=jKHBYo73msTcIeKd&amp;list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi",
         title: "HTML",
         description: "The superhero language of the internet! Imagine it as the blueprint telling your computer how to build the fantastic world of websites 🚀",
     },

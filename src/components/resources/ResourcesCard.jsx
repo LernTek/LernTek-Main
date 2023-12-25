@@ -46,7 +46,7 @@ const ResourcesCard = () => {
                 </div> */}
               </div>
               <div className='price'>
-                <h2>
+                <h2 style={{ color: "black" }}>
                   {val.courseTitle}
                 </h2>
               </div>
