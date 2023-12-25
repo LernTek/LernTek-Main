@@ -19,7 +19,7 @@ const Header = () => {
 		<>
 			<header className={isScrolled ? 'scrolled' : ''}>
 				<div className="mycontainer">
-					<nav className="flexSB header-color">
+					<nav className="flexSB">
 						<a href="/">
 							<div className="start">
 								<img className="logoImg" src="../images/logo (1).png" />
