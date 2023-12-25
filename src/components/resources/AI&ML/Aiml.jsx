@@ -1,8 +1,9 @@
 import React from 'react'
+import Individualcard from './Individualcard'
 
 const Aiml = () => {
     return (
-        <div>Aiml</div>
+        < Individualcard />
     )
 }
 

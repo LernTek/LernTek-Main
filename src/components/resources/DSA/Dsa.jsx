@@ -1,8 +1,9 @@
 import React from 'react'
+import Individualcard from './Individualcard'
 
 const Dsa = () => {
     return (
-        <div>Dsa</div>
+        < Individualcard />
     )
 }
 

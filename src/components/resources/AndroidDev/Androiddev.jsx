@@ -1,8 +1,9 @@
 import React from 'react'
+import Individualcard from './Individualcard'
 
 const Androiddev = () => {
     return (
-        <div>Androiddev</div>
+        < Individualcard />
     )
 }
 

@@ -1,8 +1,9 @@
 import React from 'react'
+import Individualcard from './Individualcard'
 
 const Cybersecurity = () => {
     return (
-        <div>Cybersecurity</div>
+        < Individualcard />
     )
 }
 

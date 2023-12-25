@@ -1,8 +1,9 @@
 import React from 'react'
+import Individualcard from './Individualcard'
 
 const Webdev = () => {
     return (
-        <div>Webdev</div>
+        < Individualcard />
     )
 }
 
