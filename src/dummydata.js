@@ -375,4 +375,11 @@ export const testimonal = [
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/t3.webp",
   },
+  {
+    id: 4,
+    name: "ROGER SCOTT",
+    post: "MARKETING MANAGER",
+    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "./images/testo/t3.webp",
+  },
 ]

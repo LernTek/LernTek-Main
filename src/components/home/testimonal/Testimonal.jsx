@@ -1,22 +1,39 @@
-import React from "react"
-import { testimonal } from "../../../dummydata"
-import Heading from "../../common/heading/Heading"
-import "./style.css"
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import Heading from "../../common/heading/Heading";
+import { testimonal } from "../../../dummydata";
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import './style.css';
 
-const Testimonal = () => {
+export default function Testimonial() {
+
   return (
     <>
-      <section className='testimonal padding'>
-        <div className='container'>
-          <Heading subtitle='TESTIMONIAL' title='Our Successful Students' />
-
-          <div className='content grid2'>
-            {testimonal.map((val) => (
-              <div className='items shadow'>
-                <div className='box flex'>
+      <Heading className="test-heading" subtitle='TESTIMONIAL' title='Our Successful Students' />
+      <Swiper
+        spaceBetween={30} // Adjust the spaceBetween property
+        centeredSlides={true}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <div className='content grid2'>
+          {testimonal.map((val) => (
+            <SwiperSlide key={val.id}>
+              <div className='test-items shadow'>
+                <div className='test-box'>
                   <div className='img'>
                     <img src={val.cover} alt='' />
-                    <i className='fa fa-quote-left icon'></i>
                   </div>
                   <div className='name'>
                     <h2>{val.name}</h2>
@@ -25,12 +42,10 @@ const Testimonal = () => {
                 </div>
                 <p>{val.desc}</p>
               </div>
-            ))}
-          </div>
+            </SwiperSlide>
+          ))}
         </div>
-      </section>
+      </Swiper >
     </>
-  )
+  );
 }
-
-export default Testimonal
