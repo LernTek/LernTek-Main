@@ -1,36 +1,52 @@
 import React from 'react';
-import { testimonal } from '../../../dummydata';
-import Heading from '../../common/heading/Heading';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import Heading from "../../common/heading/Heading";
+import { testimonal } from "../../../dummydata";
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 import './style.css';
 
-const Testimonal = () => {
-	return (
-		<>
-			<section className="testimonal padding">
-				<div className="mycontainer">
-					<Heading subtitle="TESTIMONIAL" title="Our Successful Students" />
+export default function Testimonial() {
 
-					<div className="content grid2">
-						{testimonal.map((val) => (
-							<div className="items shadow">
-								<div className="box flex">
-									<div className="img">
-										<img src={val.cover} alt="" />
-										<i className="fa fa-quote-left icon"></i>
-									</div>
-									<div className="name">
-										<h2>{val.name}</h2>
-										<span>{val.post}</span>
-									</div>
-								</div>
-								<p>{val.desc}</p>
-							</div>
-						))}
-					</div>
-				</div>
-			</section>
-		</>
-	);
-};
+  return (
+    <>
+      <Heading className="test-heading" subtitle='TESTIMONIAL' title='Our Successful Students' />
+      <Swiper
+        spaceBetween={30} // Adjust the spaceBetween property
+        centeredSlides={true}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <div className='content grid2'>
+          {testimonal.map((val) => (
+            <SwiperSlide key={val.id}>
+              <div className='test-items shadow'>
+                <div className='test-box'>
+                  <div className='img'>
+                    <img src={val.cover} alt='' />
+                  </div>
+                  <div className='name'>
+                    <h2>{val.name}</h2>
+                    <span>{val.post}</span>
+                  </div>
+                </div>
+                <p>{val.desc}</p>
+              </div>
+            </SwiperSlide>
+          ))}
+        </div>
+      </Swiper >
+    </>
+  );
+}
 
-export default Testimonal;
