@@ -5,7 +5,7 @@ import './contact.css';
 const Contact = () => {
 	return (
 		<>
-			<Back title="Contact us" />
+			<Back title="Contact us" img={'b4'} />
 			<section className="contacts padding">
 				<div className="mycontainer shadow flexSB">
 					<div className="right">

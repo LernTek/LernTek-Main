@@ -27,8 +27,8 @@
 /*--------head------------*/
 /*--------header------------*/
 header {
-	/* margin: 30px auto; */
-	padding: 20px 0px;
+	margin: 30px auto;
+	/* padding: 20px 0px; */
 	display: flex;
 	justify-content: center;
 	position: fixed;
@@ -37,13 +37,12 @@ header {
 	transition: 0.2s ease-in-out;
 }
 
-/* .header-color {
+.header-color {
 	background-color: #6c63ff;
-} */
+}
 
 header.scrolled {
-	background-color: #6c63ff;
-	padding: 0px 0px;
+	margin: 0px 0px;
 }
 
 .mycontainer {

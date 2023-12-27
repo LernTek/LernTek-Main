@@ -121,8 +121,14 @@
 }
 
 .mySwiper {
-	width: 70%;
-	height: 60vh;
+	width: 100%;
+	max-width: 55rem;
+	z-index: 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	display: none;
 }
 
 .test-items {
@@ -142,4 +148,3 @@ p {
 	padding-top: 40px;
 	padding-bottom: 0px;
 }
-

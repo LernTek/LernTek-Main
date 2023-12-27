@@ -110,7 +110,6 @@ p {
 }
 
 .back {
-	background-image: url('../public/images/1.jpg');
 	background-size: cover;
 	/* background-attachment: fixed; */
 	/* position: absolute; */
@@ -125,6 +124,19 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.b1 {
+	background-image: url('../public/images/1.jpg');
+}
+.b2 {
+	background-image: url('../public/images/2.jpg');
+}
+.b3 {
+	background-image: url('../public/images/3.jpg');
+}
+.b4 {
+	background-image: url('../public/images/4.jpg');
 }
 
 .back h1 {
@@ -187,35 +199,33 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .grid2,
-  .grid3,
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+	.grid2,
+	.grid3,
+	.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
 
-  .back {
-    background-position: center;
-    padding-top: 50%;
-    height: 80vh;
-  }
+	.back {
+		background-position: center;
+		padding-top: 50%;
+		height: 80vh;
+	}
 }
 
 @media screen and (max-width: 570px) {
+	p {
+		font-size: 16px;
+	}
 
-  p {
-    font-size: 16px;
-  }
+	.grid2,
+	.grid3,
+	.grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
 
-  .grid2,
-  .grid3,
-  .grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .back {
-    background-position: center;
-    padding-top: 50%;
-    height: 80vh;
-  }
+	.back {
+		background-position: center;
+		padding-top: 50%;
+		height: 80vh;
+	}
 }
-
