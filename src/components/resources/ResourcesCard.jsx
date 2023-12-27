@@ -43,21 +43,19 @@ const ResourcesCard = () => {
                     ))}
                   </div>
                 </div> */}
-
-              </div>
-              <div className='price'>
-                <h2 style={{ color: "black" }}>
-                  {val.courseTitle}
-                </h2>
-              </div>
-              <Link to={val.resourceRoute}><button className='outline-btn'>Get Started</button></Link>
-            </div>
-          ))}
-        </div>
-      </section>
-    </>
-  )
-}
-
+							</div>
+							<div className="price">
+								<h2 style={{ color: 'black' }}>{val.courseTitle}</h2>
+							</div>
+							<Link to={val.resourceRoute}>
+								<button className="outline-btn">Get Started</button>
+							</Link>
+						</div>
+					))}
+				</div>
+			</section>
+		</>
+	);
+};
 
 export default ResourcesCard;
