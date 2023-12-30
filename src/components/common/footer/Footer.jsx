@@ -52,7 +52,7 @@ const Footer = () => {
 						<ul>
 							<li>
 								<i className="fa fa-map"></i>
-								203 Fake St. Mountain View, San Francisco, California, USA
+								Muffakham Jah College of Engineering and Technology, Hyderabad
 							</li>
 							<li>
 								<i className="fa fa-phone-alt"></i>
@@ -60,7 +60,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<i className="fa fa-paper-plane"></i>
-								info@yourdomain.com
+								lerntek@gmail.com
 							</li>
 						</ul>
 					</div>

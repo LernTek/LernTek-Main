@@ -70,6 +70,11 @@
 .swiper {
 	width: 100%;
 	height: 100%;
+	padding-bottom: 90px;
+}
+
+.swiper-pagination {
+	padding-bottom: 90px;
 }
 
 .swiper-slide {
