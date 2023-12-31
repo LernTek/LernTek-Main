@@ -9,13 +9,6 @@
 	justify-content: center;
 }
 
-.mycontainer {
-	margin: 0 3rem;
-	padding: 0 35px;
-	width: 100%;
-	max-width: 95rem;
-}
-
 .contacts .right {
 	padding: 50px;
 	width: 100%;
@@ -53,9 +46,13 @@
 	outline: none;
 	border: 1px solid grey;
 }
-
+/* 
 form .flexSB input:nth-child(1) {
 	margin-right: 10px;
+} */
+
+.name-email {
+	gap: 10px;
 }
 
 .contacts h3 {
@@ -82,5 +79,16 @@ form .flexSB input:nth-child(1) {
 
 	.contacts .row {
 		width: 100%;
+	}
+
+	.contacts .right {
+		padding: 40px 15px;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.name-email {
+		flex-direction: column;
+		gap: 0px;
 	}
 }

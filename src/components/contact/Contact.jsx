@@ -31,7 +31,7 @@ const Contact = () => {
 						</div>
 
 						<form action="https://formspree.io/f/xvoeplaa" method="POST">
-							<div className="flexSB">
+							<div className="flexSB name-email">
 								<input type="text" name="name" placeholder="Name" />
 								<input type="email" name="email" placeholder="Email" />
 							</div>
