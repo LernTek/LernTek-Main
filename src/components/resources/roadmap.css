@@ -17,12 +17,12 @@ ul li {
 	margin: auto;
 }
 
-.mycontainer {
+/* .mycontainer {
 	margin: 0 3rem;
 	padding: 0 35px;
 	width: 100%;
 	max-width: 95rem;
-}
+} */
 
 .roadmap-flex {
 	display: flex;

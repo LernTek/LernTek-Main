@@ -53,7 +53,7 @@ const Header = () => {
 							</li>
 						</ul>
 
-						<button className="toggle" onClick={() => setClick(!click)}>
+						<button type="button" className="toggle" onClick={() => setClick(!click)}>
 							{click ? (
 								<i className="fa fa-times"> </i>
 							) : (
