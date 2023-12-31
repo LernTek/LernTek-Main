@@ -17,9 +17,11 @@ const Hero = () => {
 							and Consonantia, there live the blind texts.
 						</p>
 						<div className="button">
-							<button className="primary-btn">
-								GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
-							</button>
+							<a href="/resources">
+								<button className="primary-btn">
+									GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
+								</button>
+							</a>
 						</div>
 					</div>
 				</div>
