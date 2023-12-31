@@ -56,6 +56,12 @@ footer .container {
 	grid-gap: 40px;
 }
 
+@media screen and (max-width: 768px) {
+	footer .container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
 footer .logo span {
 	color: #6c63ff;
 	font-size: 14px;
@@ -75,18 +81,17 @@ footer .logo .icon {
 footer h3 {
 	margin-bottom: 40px;
 	font-weight: 500;
-	font-size: 25px;
 }
 
 footer ul li {
 	margin-bottom: 20px;
 }
 
-/* footer .link li::before {
+footer .link li::before {
 	content: '⟶';
 	color: #6c63ff;
 	margin-right: 5px;
-} */
+}
 
 footer .items {
 	margin-bottom: 30px;
@@ -132,35 +137,10 @@ footer .last i {
 }
 
 .legal p {
-	font-size: 12px;
+	font-size: 15px;
 	margin-top: 0;
 }
 
 .legal i {
 	color: #6c63ff;
-}
-
-.link-box {
-	display: flex;
-	gap: 50px;
-}
-
-@media screen and (max-width: 768px) {
-	.flex-footer {
-		flex-wrap: wrap;
-		justify-content: none;
-	}
-}
-
-@media screen and (max-width: 376px) {
-	.link-box {
-		flex-direction: column;
-	}
-	.flex-padding {
-		padding: 60px 15px !important;
-	}
-
-	.legal p {
-		font-size: 10.5px;
-	}
 }

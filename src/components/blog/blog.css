@@ -11,12 +11,12 @@ body {
 	justify-content: center;
 }
 
-/* .mycontainer {
+.mycontainer {
 	margin: 0 3rem;
 	padding: 0 35px;
 	width: 100%;
 	max-width: 95rem;
-} */
+}
 
 .blog .text {
 	padding: 40px 30px;

@@ -36,35 +36,33 @@ const Footer = () => {
 						<i className="fab fa-twitter icon"></i>
 						<i className="fab fa-instagram icon"></i>
 					</div>
-					<div className="link-box">
-						<div className="box link">
-							<h3>Explore</h3>
-							<ul>
-								<li>About Us</li>
-								<li>Services</li>
-								<li>Courses</li>
-								<li>Blog</li>
-								<li>Contact us</li>
-							</ul>
-						</div>
+					<div className="box link">
+						<h3>Explore</h3>
+						<ul>
+							<li>About Us</li>
+							<li>Services</li>
+							<li>Courses</li>
+							<li>Blog</li>
+							<li>Contact us</li>
+						</ul>
+					</div>
 
-						<div className="box last">
-							<h3>Have a Questions?</h3>
-							<ul>
-								<li>
-									<i className="fa fa-map"></i>
-									Muffakham Jah College of Engineering and Technology, Hyderabad
-								</li>
-								<li>
-									<i className="fa fa-phone-alt"></i>
-									+2 392 3929 210
-								</li>
-								<li>
-									<i className="fa fa-paper-plane"></i>
-									lerntek@gmail.com
-								</li>
-							</ul>
-						</div>
+					<div className="box last">
+						<h3>Have a Questions?</h3>
+						<ul>
+							<li>
+								<i className="fa fa-map"></i>
+								Muffakham Jah College of Engineering and Technology, Hyderabad
+							</li>
+							<li>
+								<i className="fa fa-phone-alt"></i>
+								+2 392 3929 210
+							</li>
+							<li>
+								<i className="fa fa-paper-plane"></i>
+								lerntek@gmail.com
+							</li>
+						</ul>
 					</div>
 				</div>
 			</footer>

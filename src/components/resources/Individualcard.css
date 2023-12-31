@@ -2,12 +2,12 @@
     padding: 20px 0;
 } */
 
-/* .mycontainer {
+.mycontainer {
 	margin: 0 3rem;
 	padding: 0 35px;
 	width: 100%;
 	max-width: 95rem;
-} */
+}
 
 .coursesCard .items {
 	background-color: #f8f8f8;
@@ -159,8 +159,8 @@
 /*-------------online---------*/
 @media screen and (max-width: 768px) {
 	.coursesCard {
-		padding: 50px 0px;
-		/* margin-top: 20px; */
+		padding: 0;
+		margin-top: 20px;
 	}
 
 	.coursesCard .items {

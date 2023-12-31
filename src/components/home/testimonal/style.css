@@ -1,12 +1,12 @@
-.testmonialSection {
-	display: flex;
-	justify-content: center;
-	padding: 70px 0px;
-}
-
 .testimonal {
 	display: flex;
 	justify-content: center;
+}
+.mycontainer {
+	margin: 0 3rem;
+	padding: 0 35px;
+	width: 100%;
+	max-width: 95rem;
 }
 
 .testimonal .items {
@@ -69,6 +69,12 @@
 
 .swiper {
 	width: 100%;
+	height: 100%;
+	padding-bottom: 90px;
+}
+
+.swiper-pagination {
+	padding-bottom: 90px;
 }
 
 .swiper-slide {
@@ -146,20 +152,4 @@ p {
 #heading {
 	padding-top: 40px;
 	padding-bottom: 0px;
-}
-
-@media screen and (max-width: 426px) {
-	.testmonialSection {
-		padding: 50px 0px 100px;
-	}
-
-	.test-items {
-		padding: 65px 30px;
-	}
-}
-
-@media screen and (max-width: 376px) {
-	.test-items {
-		padding: 60px 20px;
-	}
 }

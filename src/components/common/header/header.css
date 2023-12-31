@@ -45,6 +45,13 @@ header.scrolled {
 	margin: 0px 0px;
 }
 
+.mycontainer {
+	margin: 0 3rem;
+	padding: 0 35px;
+	width: 100%;
+	max-width: 95rem;
+}
+
 header .nav {
 	display: flex !important;
 }
@@ -98,6 +105,7 @@ header ul li a:hover {
 	header {
 		margin: 0;
 		background-color: #6c63ff;
+		position: relative;
 	}
 
 	header ul.flexSB {
@@ -113,51 +121,16 @@ header ul li a:hover {
 		background: none;
 		color: #fff;
 		font-size: 30px;
+		position: absolute;
 		right: 0;
-		margin: 0px !important;
 		top: -20px;
-		box-shadow: none;
-	}
-
-	.header-color {
-		flex-wrap: wrap;
-	}
-
-	.start {
-		padding: 16px 0px;
-	}
-
-	.fa {
-		margin-left: 0px;
 	}
 
 	.mobile-nav {
-		order: 2;
+		position: absolute;
+		top: 7vh;
+		left: 0;
 		width: 100%;
 		background-color: #6c63ff;
-	}
-}
-
-@media screen and (max-width: 426px) {
-	.start {
-		padding: 0px;
-	}
-
-	#heading h1 {
-		font-size: 37px;
-	}
-
-	p {
-		font-size: 15px;
-	}
-}
-
-@media screen and (max-width: 376px) {
-	#heading h1 {
-		font-size: 33px;
-	}
-
-	header ul {
-		padding: 15px 20px;
 	}
 }

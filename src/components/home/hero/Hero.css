@@ -15,6 +15,13 @@
 	color: #fff;
 }
 
+.mycontainer {
+	margin: 0 3rem;
+	padding: 0 35px;
+	width: 100%;
+	max-width: 95rem;
+}
+
 .hero #heading {
 	text-align: left;
 	margin: 0;
@@ -26,15 +33,13 @@
 		height: 40vh;
 	}
 
-	/* .hero {
+	.hero {
 		background-position: right;
 		padding-top: 50%;
 		height: 80vh;
-	} */
+	}
 
 	.hero .row {
 		width: 100%;
-		max-width: 35rem;
-		margin-bottom: 2rem;
 	}
 }

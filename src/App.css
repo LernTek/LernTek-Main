@@ -207,22 +207,8 @@ p {
 
 	.back {
 		background-position: center;
-	}
-	h3 {
-		font-size: 1rem;
-	}
-	#heading h1 {
-		font-size: 40px;
-		margin: 16px 0px;
-	}
-	p {
-		font-size: 16px;
-	}
-	.primary-btn {
-		font-size: 0.75rem;
-	}
-	.back h1 {
-		font-size: 80px;
+		padding-top: 50%;
+		height: 80vh;
 	}
 }
 
@@ -236,38 +222,10 @@ p {
 	.grid {
 		grid-template-columns: repeat(1, 1fr);
 	}
-}
 
-@media screen and (max-width: 426px) {
-	.mycontainer {
-		margin: 0px 1rem;
-		padding: 0px 20px;
-	}
-
-	.back h1 {
-		font-size: 65px;
-	}
-}
-
-@media screen and (max-width: 376px) {
-	h3 {
-		font-size: 0.8rem;
-	}
-
-	.primary-btn {
-		font-size: 0.65rem;
-	}
-
-	.back h1 {
-		font-size: 60px;
-	}
-	.back h2 {
-		font-size: 15px;
-	}
-}
-
-@media screen and (max-width: 321px) {
-	.mycontainer {
-		padding: 0px 16px;
+	.back {
+		background-position: center;
+		padding-top: 50%;
+		height: 80vh;
 	}
 }
