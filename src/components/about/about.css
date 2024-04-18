@@ -100,7 +100,7 @@
 
 /*----------awrapper------------*/
 .awrapper {
-	background-image: url('../../../public/images/awrapper.webp');
+	background-image: url('../../../images/awrapper.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -163,18 +163,20 @@
 	p {
 		line-height: 25px;
 	}
+
 	.aboutHome .item {
 		gap: 15px;
 		padding: 25px 12px;
 	}
+
 	.aboutHome img {
 		width: 60px;
 		height: 55px;
 	}
+
 	.awrapper {
 		height: 30rem;
 	}
 
-	.flex {
-	}
+	.flex {}
 }

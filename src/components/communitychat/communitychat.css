@@ -71,12 +71,12 @@
 .messageInput {
     line-height: 1.5;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background: rgb(58, 58, 58);
     color: white;
     outline: none;
     border: none;
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 
 .signInButton {
@@ -123,7 +123,6 @@ ul, li {
 }
 
 .chatPara {
-    max-width: 50%;
     margin-bottom: 18px;
     line-height: 24px;
     padding: 10px 20px;
@@ -131,6 +130,9 @@ ul, li {
     position: relative;
     color: white;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .message {

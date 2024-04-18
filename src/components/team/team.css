@@ -18,6 +18,15 @@
 	object-fit: cover;
 }
 
+.team-heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 3rem;
+	margin-bottom: -3rem;
+	font-size: 3rem;
+}
+
 .overlay {
 	position: absolute;
 	bottom: 0;

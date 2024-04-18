@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Heading from '../../common/heading/Heading';
 import './Hero.css';
 
@@ -17,11 +18,11 @@ const Hero = () => {
 							and Consonantia, there live the blind texts.
 						</p>
 						<div className="button">
-							<a href="/resources">
+							<Link to="/resources">
 								<button className="primary-btn">
 									GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
 								</button>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

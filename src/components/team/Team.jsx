@@ -8,7 +8,7 @@ import '../about/about.css';
 const Team = () => {
 	return (
 		<>
-			<Back title="Team" img={'b3'} />
+			<h1 className='team-heading'>Meet Our Team</h1>
 			<section className="team padding">
 				<div className="mycontainer grid">
 					<TeamCard />

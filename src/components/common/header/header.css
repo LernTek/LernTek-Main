@@ -64,7 +64,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-	color: #6c63ff;
+	color: #d1cfff;
 }
 
 .start {
@@ -81,6 +81,7 @@ header ul li a:hover {
 }
 
 .logoImg {
+	/* background-image: url('../../../images/logo.png'); */
 	width: 44px;
 	height: 44px;
 }
